@@ -29,12 +29,6 @@ public class DOM_Test {
 		Document doc=db.parse(new File("frases.xml"));
 		Element root=doc.getDocumentElement();
 		System.out.println(root.getTagName());
-                System.out.println(root.getTagName());
-                System.out.println(root.getTagName());
-                System.out.println(root.getTagName());System.out.println(root.getTagName());
-                System.out.println(root.getTagName());
-                System.out.println(root.getTagName());
-                String nombre;
 		NodeList nodes=root.getChildNodes();
 		for(int i=0;i<nodes.getLength();i++){
 			Node node=nodes.item(i);
